@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		"$darkBlueLev: #166f91;\r\n$lightBlueLev: #15afc2;\r\n$lightBlueLevHover: #118a99;\r\nheader {\r\n  background-color: $darkBlueLev !important;\r\n}\r\n\r\nbody {\r\n  font-family: 'Open Sans', sans-serif !important;\r\n}\r\n\r\n.nav-link {\r\n  color: white !important;\r\n  text-transform: uppercase;\r\n  font-size: 0.9rem;\r\n  padding: 0 15px !important;\r\n  font-weight: 400;\r\n}\r\n\r\n.btn-lev {\r\n  background: $lightBlueLev;\r\n  padding: 10px 16px !important;\r\n  border-radius: 5px;\r\n}\r\n\r\n.btn-lev:hover {\r\n  background: $lightBlueLevHover;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AAGA,AAAA,MAAM,CAAC;EACL,gBAAgB,EAJJ,OAAO,CAIY,UAAU;CAC1C;;;AAED,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,kCAAkC;CAChD;;;AAED,AAAA,SAAS,CAAC;EACR,KAAK,EAAE,gBAAgB;EACvB,cAAc,EAAE,SAAS;EACzB,SAAS,EAAE,MAAM;EACjB,OAAO,EAAE,iBAAiB;EAC1B,WAAW,EAAE,GAAG;CACjB;;;AAED,AAAA,QAAQ,CAAC;EACP,UAAU,EAnBG,OAAO;EAoBpB,OAAO,EAAE,oBAAoB;EAC7B,aAAa,EAAE,GAAG;CACnB;;;AAED,AAAA,QAAQ,AAAA,MAAM,CAAC;EACb,UAAU,EAxBQ,OAAO;CAyB1B"
+}

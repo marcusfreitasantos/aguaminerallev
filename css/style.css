@@ -1,0 +1,32 @@
+/* line 4, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+header {
+  background-color: #166f91 !important;
+}
+
+/* line 8, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+body {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+/* line 12, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+.nav-link {
+  color: white !important;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  padding: 0 15px !important;
+  font-weight: 400;
+}
+
+/* line 20, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+.btn-lev {
+  background: #15afc2;
+  padding: 10px 16px !important;
+  border-radius: 5px;
+}
+
+/* line 26, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+.btn-lev:hover {
+  background: #118a99;
+}
+
+/*# sourceMappingURL=style.css.map */
