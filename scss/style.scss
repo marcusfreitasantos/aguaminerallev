@@ -1,6 +1,21 @@
+$darkerBlueLev: #0c3b4d;
 $darkBlueLev: #166f91;
 $lightBlueLev: #15afc2;
 $lightBlueLevHover: #118a99;
+$grayLev: #808080;
+$levSubtitle: 2rem;
+$levParagraph: 1rem;
+$levFooterTitle: 1.2rem;
+$sectionPadding: 60px 0;
+
+ul {
+  padding: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
 header {
   background-color: $darkBlueLev !important;
 }
@@ -17,12 +32,123 @@ body {
   font-weight: 400;
 }
 
+.nav-link:hover {
+  color: $lightBlueLev !important;
+}
+
 .btn-lev {
   background: $lightBlueLev;
-  padding: 10px 16px !important;
+  padding: 10px 24px !important;
   border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.btn-lev a {
+  color: white !important ;
 }
 
 .btn-lev:hover {
   background: $lightBlueLevHover;
+  color: white !important ;
+}
+
+.link-active {
+  color: $lightBlueLev !important;
+  font-weight: bold;
+}
+
+.hero-banner {
+  background: url(../img/hero-banner-home.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+}
+
+.hero-banner img {
+  max-width: 400px;
+  margin-bottom: 100px;
+}
+
+.lev-subtitle {
+  font-size: $levSubtitle;
+  color: $darkBlueLev;
+  font-weight: bold;
+}
+
+.lev-paragraph {
+  color: $grayLev;
+  font-size: $levParagraph;
+  margin: 20px 0;
+  text-align: justify;
+}
+
+.section-produtos,
+.section-quem-somos,
+.footer-lev {
+  padding: $sectionPadding;
+}
+
+.footer-lev {
+  background: $darkBlueLev;
+}
+
+.lev-contato {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  align-content: center;
+  padding: 10px 0;
+  color: white;
+}
+
+.lev-contato i {
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+.lev-contato p {
+  margin: 0 !important;
+  font-size: 0.9rem !important;
+}
+
+.bottom-bar {
+  background: $darkerBlueLev;
+  padding: 2px 0;
+  color: white;
+  text-align: center;
+}
+
+.bottom-bar h6 {
+  margin: 0 !important;
+  font-size: 0.8rem !important;
+  text-align: center;
+  line-height: 0;
+}
+
+.footer-title {
+  font-size: $levFooterTitle;
+  font-weight: 700;
+  color: white;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+
+.mapa-do-site li {
+  padding: 10px 0 !important;
+}
+
+.mapa-do-site li a,
+.lev-contato a {
+  color: white;
+  transition: 0.3s;
+}
+
+.mapa-do-site li a:hover,
+.lev-contato a:hover {
+  color: $lightBlueLev;
 }

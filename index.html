@@ -6,9 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="css/reset.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/85921d822d.js" crossorigin="anonymous"></script>
 
 
   <title>Água Mineral Lev</title>
@@ -25,7 +28,7 @@
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav align-items-center">
-            <li class="nav-item"><a class='nav-link' href="index.html">Início</a></li>
+            <li class="nav-item"><a class='nav-link link-active' href="index.html">Início</a></li>
             <li class="nav-item"><a class='nav-link' href="index.html">Quem Somos</a></li>
             <li class="nav-item"><a class='nav-link' href="index.html">Produtos</a></li>
             <li class="nav-item"><a class='nav-link' href="index.html">Dicas de Saúde</a></li>
@@ -35,9 +38,125 @@
         </div>
       </nav>
     </div>
-
-
   </header>
+
+  <section class="hero-banner">
+    <div class="container">
+      <div class="row justify-content-space-between">
+        <img src="img/hero-banner-txt.svg" class="img-fluid col-6 ">
+      </div>
+    </div>
+  </section>
+
+  <section class="section-quem-somos">
+    <div class="container">
+      <div class="row justify-content-space-between align-items-center">
+        <div class="col-6">
+          <img src="img/familia-lev.png" alt='foto da família de produtos LEV' class="img-fluid">
+        </div>
+        <div class="col-6">
+          <h2 class="lev-subtitle">QUEM SOMOS</h2>
+          <p class="lev-paragraph">O grande diferencial da água LEV é o baixo teor de componentes minerais, característica comprovada cientificamente como indispensável para uma vida saudável, devido a suas propriedades terapêuticas. Outro ponto de destaque é o tipo de captação e envasamento processado pela LEV: tudo é elaborado por um conjunto de máquinas de última geração e equipamentos automatizados de puro aço inoxidável.</p>
+          <button class="btn-lev"><a href="#">Ver mais</a></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section-produtos">
+    <div class="container">
+      <div class="row justify-content-space-between align-items-center">
+        <div class="col-4">
+          <h2 class="lev-subtitle">PRODUTOS</h2>
+          <p class="lev-paragraph">Oferecemos uma linha completa com diversos tipos de embalagens.</p>
+          <button class="btn-lev"><a href="#">Ver produtos</a></button>
+        </div>
+        <div class="col-8">
+          <img src="img/familia-lev2.png" alt='foto da família de produtos LEV' class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer-lev">
+    <div class="container">
+      <div class="footer-content row justify-content-space-between">
+        <div class="col-4">
+          <img src="img/lev-logo-branco.svg" width="150" class="img-fluid" alt="logotipo da lev">
+          <div class="lev-contato">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>BR 101 - Rodovia de acesso à Rita Ceceta Km 2 - São Cristóvão - Sergipe</p>
+          </div>
+
+          <div class="lev-contato">
+            <i class="fas fa-phone"></i>
+            <div>
+              <p>(79) 3261-3564 (Fonte)</p>
+              <p>(79) 3226-1600 (Concorde Veículos)</p>
+              <p> (79) 3238-2600 (SAC)</p>
+            </div>
+          </div>
+
+          <div class="lev-contato">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <p>sac@agualev.com.br</p>
+              <p>mariana@agualev.com.br</p>
+            </div>
+          </div>
+
+          <div class="lev-contato">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <h6 class="footer-title">MAPA DO SITE</h6>
+          <ul class="mapa-do-site">
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Quem somos</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Dicas de saúde</a></li>
+            <li><a href="#">Seja distribuidor</a></li>
+          </ul>
+        </div>
+
+        <div class="col-4">
+          <h6 class="footer-title">FALE CONOSCO</h6>
+          <form>
+            <div class="mb-2">
+              <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+            </div>
+            <div class="row g-2 mb-2">
+              <div class="col">
+                <input type="email" class="form-control" id="email" placeholder="Seu e-mail">
+              </div>
+              <div class="col">
+                <input type="phone" class="form-control" id="tel" placeholder="Telefone">
+              </div>
+            </div>
+            <div class="mb-2">
+              <textarea class="form-control" id="mensagem" rows="3" placeholder="Mensagem"></textarea>
+            </div>
+            <button type="submit" class="btn btn-lev mb-3">Enviar</button>
+
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <section class="bottom-bar">
+    <div class="container">
+      <div class="lev-contato justify-content-center ">
+        <i class="far fa-copyright"></i>
+        <h6>Água Mineral Lev 2021. Todos os direitos reservados.</h6>
+      </div>
+    </div>
+  </section>
 
 
 
