@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "quem-somos.css",
+	"sources": [
+		"../scss/quem-somos.scss"
+	],
+	"sourcesContent": [
+		"@mixin instalacoes-img {\r\n  background-size: cover;\r\n  background-position: center bottom;\r\n  background-repeat: no-repeat;\r\n  padding: 100px 0;\r\n}\r\n\r\n.instalacoes-img-1 {\r\n  @include instalacoes-img;\r\n  background: url(../img/instalacoes-img-1.jpg);\r\n}\r\n\r\n.instalacoes-img-2 {\r\n  @include instalacoes-img;\r\n  background: url(../img/instalacoes-img-2.jpg);\r\n}\r\n.instalacoes-img-3 {\r\n  @include instalacoes-img;\r\n  background: url(../img/instalacoes-img-3.jpg);\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AAOA,AAAA,kBAAkB,CAAC;EANjB,eAAe,EAAE,KAAK;EACtB,mBAAmB,EAAE,aAAa;EAClC,iBAAiB,EAAE,SAAS;EAC5B,OAAO,EAAE,OAAO;EAKhB,UAAU,EAAE,iCAAiC;CAC9C;;;AAED,AAAA,kBAAkB,CAAC;EAXjB,eAAe,EAAE,KAAK;EACtB,mBAAmB,EAAE,aAAa;EAClC,iBAAiB,EAAE,SAAS;EAC5B,OAAO,EAAE,OAAO;EAUhB,UAAU,EAAE,iCAAiC;CAC9C;;;AACD,AAAA,kBAAkB,CAAC;EAfjB,eAAe,EAAE,KAAK;EACtB,mBAAmB,EAAE,aAAa;EAClC,iBAAiB,EAAE,SAAS;EAC5B,OAAO,EAAE,OAAO;EAchB,UAAU,EAAE,iCAAiC;CAC9C"
+}

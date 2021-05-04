@@ -1,0 +1,20 @@
+@mixin instalacoes-img {
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+}
+
+.instalacoes-img-1 {
+  @include instalacoes-img;
+  background: url(../img/instalacoes-img-1.jpg);
+}
+
+.instalacoes-img-2 {
+  @include instalacoes-img;
+  background: url(../img/instalacoes-img-2.jpg);
+}
+.instalacoes-img-3 {
+  @include instalacoes-img;
+  background: url(../img/instalacoes-img-3.jpg);
+}

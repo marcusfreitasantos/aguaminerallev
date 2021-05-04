@@ -1,11 +1,12 @@
+@import 'quem-somos.scss';
 $darkerBlueLev: #0c3b4d;
 $darkBlueLev: #166f91;
 $lightBlueLev: #15afc2;
 $lightBlueLevHover: #118a99;
 $grayLev: #808080;
 $levSubtitle: 2rem;
+$levFooterTitle: 1.5rem;
 $levParagraph: 1rem;
-$levFooterTitle: 1.2rem;
 $sectionPadding: 60px 0;
 
 ul {
@@ -60,17 +61,27 @@ body {
   font-weight: bold;
 }
 
-.hero-banner {
-  background: url(../img/hero-banner-home.jpg);
+@mixin banner-img {
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
-  padding: 100px 0;
+  padding: 60px 0;
 }
 
-.hero-banner img {
+.hero-banner-home {
+  background: url(../img/hero-banner-home.jpg);
+  @include banner-img;
+}
+
+.hero-banner-quem-somos {
+  background: url(../img/quem-somos-img.jpg);
+  @include banner-img;
+  padding: 10px 0;
+}
+
+.banner-img {
   max-width: 400px;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 .lev-subtitle {
@@ -86,9 +97,8 @@ body {
   text-align: justify;
 }
 
-.section-produtos,
-.section-quem-somos,
-.footer-lev {
+section,
+footer {
   padding: $sectionPadding;
 }
 
@@ -151,4 +161,35 @@ body {
 .mapa-do-site li a:hover,
 .lev-contato a:hover {
   color: $lightBlueLev;
+}
+
+.bottom-bar .lev-contato i {
+  font-size: 0.7rem;
+}
+
+.navbar-toggler {
+  font-size: $levSubtitle;
+  border: 0 !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.fa-bars {
+  color: white;
+}
+
+@media (max-width: 360px) {
+  .footer-content .col-sm-12:nth-child(2n) {
+    margin: 30px 0;
+  }
+
+  .bottom-bar .lev-contato h6 {
+    font-size: 0.5rem !important;
+  }
+
+  .btn-lev {
+    font-size: 0.8rem;
+  }
 }

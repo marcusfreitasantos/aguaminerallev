@@ -1,24 +1,51 @@
-/* line 11, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+/* line 8, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/quem-somos.scss */
+.instalacoes-img-1 {
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+  background: url(../img/instalacoes-img-1.jpg);
+}
+
+/* line 13, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/quem-somos.scss */
+.instalacoes-img-2 {
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+  background: url(../img/instalacoes-img-2.jpg);
+}
+
+/* line 17, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/quem-somos.scss */
+.instalacoes-img-3 {
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+  background: url(../img/instalacoes-img-3.jpg);
+}
+
+/* line 12, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
 ul {
   padding: 0;
 }
 
-/* line 15, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+/* line 16, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
 a {
   text-decoration: none !important;
 }
 
-/* line 19, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+/* line 20, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
 header {
   background-color: #166f91 !important;
 }
 
-/* line 23, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+/* line 24, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
 body {
   font-family: 'Open Sans', sans-serif !important;
 }
 
-/* line 27, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+/* line 28, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
 .nav-link {
   color: white !important;
   text-transform: uppercase;
@@ -27,12 +54,12 @@ body {
   font-weight: 400;
 }
 
-/* line 35, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+/* line 36, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
 .nav-link:hover {
   color: #15afc2 !important;
 }
 
-/* line 39, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+/* line 40, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
 .btn-lev {
   background: #15afc2;
   padding: 10px 24px !important;
@@ -43,46 +70,56 @@ body {
   transition: 0.3s;
 }
 
-/* line 49, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+/* line 50, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
 .btn-lev a {
   color: white !important;
 }
 
-/* line 53, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+/* line 54, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
 .btn-lev:hover {
   background: #118a99;
   color: white !important;
 }
 
-/* line 58, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+/* line 59, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
 .link-active {
   color: #15afc2 !important;
   font-weight: bold;
 }
 
-/* line 63, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
-.hero-banner {
+/* line 71, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+.hero-banner-home {
   background: url(../img/hero-banner-home.jpg);
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
-  padding: 100px 0;
-}
-
-/* line 71, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
-.hero-banner img {
-  max-width: 400px;
-  margin-bottom: 100px;
+  padding: 60px 0;
 }
 
 /* line 76, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+.hero-banner-quem-somos {
+  background: url(../img/quem-somos-img.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  padding: 60px 0;
+  padding: 10px 0;
+}
+
+/* line 82, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+.banner-img {
+  max-width: 400px;
+  margin-bottom: 150px;
+}
+
+/* line 87, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
 .lev-subtitle {
   font-size: 2rem;
   color: #166f91;
   font-weight: bold;
 }
 
-/* line 82, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+/* line 93, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
 .lev-paragraph {
   color: #808080;
   font-size: 1rem;
@@ -90,19 +127,18 @@ body {
   text-align: justify;
 }
 
-/* line 89, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
-.section-produtos,
-.section-quem-somos,
-.footer-lev {
+/* line 100, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+section,
+footer {
   padding: 60px 0;
 }
 
-/* line 95, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+/* line 105, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
 .footer-lev {
   background: #166f91;
 }
 
-/* line 99, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+/* line 109, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
 .lev-contato {
   display: flex;
   flex-direction: row;
@@ -113,19 +149,19 @@ body {
   color: white;
 }
 
-/* line 109, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+/* line 119, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
 .lev-contato i {
   margin-right: 10px;
   font-size: 1.5rem;
 }
 
-/* line 114, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+/* line 124, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
 .lev-contato p {
   margin: 0 !important;
   font-size: 0.9rem !important;
 }
 
-/* line 119, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+/* line 129, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
 .bottom-bar {
   background: #0c3b4d;
   padding: 2px 0;
@@ -133,7 +169,7 @@ body {
   text-align: center;
 }
 
-/* line 126, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+/* line 136, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
 .bottom-bar h6 {
   margin: 0 !important;
   font-size: 0.8rem !important;
@@ -141,31 +177,67 @@ body {
   line-height: 0;
 }
 
-/* line 133, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+/* line 143, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
 .footer-title {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: white;
   border-bottom: 1px solid white;
   padding-bottom: 5px;
 }
 
-/* line 141, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+/* line 151, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
 .mapa-do-site li {
   padding: 10px 0 !important;
 }
 
-/* line 145, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+/* line 155, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
 .mapa-do-site li a,
 .lev-contato a {
   color: white;
   transition: 0.3s;
 }
 
-/* line 151, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+/* line 161, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
 .mapa-do-site li a:hover,
 .lev-contato a:hover {
   color: #15afc2;
+}
+
+/* line 166, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+.bottom-bar .lev-contato i {
+  font-size: 0.7rem;
+}
+
+/* line 170, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+.navbar-toggler {
+  font-size: 2rem;
+  border: 0 !important;
+}
+
+/* line 175, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/* line 179, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+.fa-bars {
+  color: white;
+}
+
+@media (max-width: 360px) {
+  /* line 184, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+  .footer-content .col-sm-12:nth-child(2n) {
+    margin: 30px 0;
+  }
+  /* line 188, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+  .bottom-bar .lev-contato h6 {
+    font-size: 0.5rem !important;
+  }
+  /* line 192, ../../../Pictures/Portfolio_Marcu's Freitas/Y/Ynspire/Lev/2021/Site/website-agua-lev/scss/style.scss */
+  .btn-lev {
+    font-size: 0.8rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
