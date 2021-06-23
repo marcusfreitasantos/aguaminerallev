@@ -3,18 +3,24 @@
   background-position: center bottom;
   background-repeat: no-repeat;
   padding: 100px 0;
+  border-radius: 5px;
 }
 
 .instalacoes-img-1 {
-  @include instalacoes-img;
   background: url(../img/instalacoes-img-1.jpg);
+  @include instalacoes-img;
 }
 
 .instalacoes-img-2 {
-  @include instalacoes-img;
   background: url(../img/instalacoes-img-2.jpg);
+  @include instalacoes-img;
 }
 .instalacoes-img-3 {
-  @include instalacoes-img;
   background: url(../img/instalacoes-img-3.jpg);
+  @include instalacoes-img;
+}
+
+.section-controle {
+  background: url(../img/controle-de-qualidade-img.jpg) no-repeat;
+  background-size: cover;
 }

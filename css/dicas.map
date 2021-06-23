@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "dicas.css",
+	"sources": [
+		"../scss/dicas.scss"
+	],
+	"sourcesContent": [
+		"@mixin instalacoes-img {\r\n  background-size: cover;\r\n  background-position: center bottom;\r\n  background-repeat: no-repeat;\r\n  padding: 100px 0;\r\n  border-radius: 5px;\r\n}\r\n\r\n.card-dicas {\r\n  height: 100%;\r\n  background: white;\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: flex-start;\r\n  align-items: center;\r\n  border-radius: 5px;\r\n  box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.2);\r\n  margin: 15px 0;\r\n  padding-bottom: 20px;\r\n}\r\n\r\n.card-dicas h2 {\r\n  text-align: center;\r\n  padding: 15px;\r\n  width: 100%;\r\n  font-size: 1.5rem;\r\n  text-transform: uppercase;\r\n  color: white;\r\n  border-radius: 5px 5px 0 0;\r\n}\r\n\r\n.section-dicas .odd h2 {\r\n  background: #166f91;\r\n}\r\n\r\n.section-dicas .even h2 {\r\n  background: #15afc2;\r\n}\r\n\r\n.card-dicas p {\r\n  padding: 15px 30px;\r\n  text-align: justify;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AAQA,AAAA,WAAW,CAAC;EACV,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,KAAK;EACjB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,eAAe,EAAE,UAAU;EAC3B,WAAW,EAAE,MAAM;EACnB,aAAa,EAAE,GAAG;EAClB,UAAU,EAAE,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,GAAG,CAAC,kBAAkB;EAC/C,MAAM,EAAE,MAAM;EACd,cAAc,EAAE,IAAI;CACrB;;;AAED,AAAA,WAAW,CAAC,EAAE,CAAC;EACb,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,IAAI;EACb,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,MAAM;EACjB,cAAc,EAAE,SAAS;EACzB,KAAK,EAAE,KAAK;EACZ,aAAa,EAAE,WAAW;CAC3B;;;AAED,AAAA,cAAc,CAAC,IAAI,CAAC,EAAE,CAAC;EACrB,UAAU,EAAE,OAAO;CACpB;;;AAED,AAAA,cAAc,CAAC,KAAK,CAAC,EAAE,CAAC;EACtB,UAAU,EAAE,OAAO;CACpB;;;AAED,AAAA,WAAW,CAAC,CAAC,CAAC;EACZ,OAAO,EAAE,SAAS;EAClB,UAAU,EAAE,OAAO;CACpB"
+}

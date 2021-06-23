@@ -29,7 +29,7 @@
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav align-items-center">
-            <li class="nav-item"><a class='nav-link link-active' href="index.html">Início</a></li>
+            <li class="nav-item"><a class='nav-link' href="index.html">Início</a></li>
             <li class="nav-item"><a class='nav-link' href="quem-somos.html">Quem Somos</a></li>
             <li class="nav-item"><a class='nav-link' href="produtos.html">Produtos</a></li>
             <li class="nav-item"><a class='nav-link' href="dicas.html">Dicas de Saúde</a></li>
@@ -43,40 +43,74 @@
 
   <!--BANNER-->
   <section class="hero-banner-home">
-    <img src="img/home-banner.jpg" class="img-fluid w-100 banner-desktop">
-    <img src="img/home-mobile-banner.jpg" class="img-fluid w-100 banner-mobile">
+    <img src="img/fornecedor-banner.jpg" class="img-fluid w-100 banner-desktop">
+    <img src="img/fornecedor-mobile-banner.jpg" class="img-fluid w-100 banner-mobile">
   </section>
 
   <section class="section-quem-somos">
     <div class="container">
+      <h2 style="font-size: 1.2rem; color: #808080;">Favor preencher todos os campos do formulário:</h2>
       <div class="row justify-content-space-between align-items-center">
-        <div class="col-md-6 col-sm-12">
-          <img src="img/familia-lev.png" alt='foto da família de produtos LEV' class="img-fluid">
-        </div>
-        <div class="col-md-6 col-sm-12">
-          <h2 class="lev-subtitle">QUEM SOMOS</h2>
-          <p class="lev-paragraph">O grande diferencial da água LEV é o baixo teor de componentes minerais, característica comprovada cientificamente como indispensável para uma vida saudável, devido a suas propriedades terapêuticas. Outro ponto de destaque é o tipo de captação e envasamento processado pela LEV: tudo é elaborado por um conjunto de máquinas de última geração e equipamentos automatizados de puro aço inoxidável.</p>
-          <button class="btn-lev"><a href="quem-somos.html">Ver mais</a></button>
-        </div>
+        <form>
+          <div class="mb-2">
+            <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+          </div>
+          <div class="row g-2 mb-2">
+            <div class="col">
+              <input type="text" class="form-control" id="cidade" placeholder="Cidade">
+            </div>
+            <div class="col">
+              <select name="estados-brasil" class="form-select" id="estado">
+                <option value="UF" selected="true" disabled="disabled">UF:</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+              </select>
+            </div>
+          </div>
+          <div class="row g-2 mb-2">
+            <div class="col">
+              <input type="email" class="form-control" id="email" placeholder="Seu e-mail">
+            </div>
+            <div class="col">
+              <input type="phone" class="form-control" id="tel" placeholder="Telefone">
+            </div>
+          </div>
+          <div class="mb-2">
+            <textarea class="form-control" id="mensagem" rows="4" placeholder="Mensagem"></textarea>
+          </div>
+          <button type="submit" class="btn btn-lev mb-3">Enviar</button>
+        </form>
       </div>
     </div>
   </section>
 
 
-  <section class="section-produtos">
-    <div class="container">
-      <div class="row justify-content-space-between align-items-center">
-        <div class="col-md-4 col-sm-12">
-          <h2 class="lev-subtitle">PRODUTOS</h2>
-          <p class="lev-paragraph">Oferecemos uma linha completa com diversos tipos de embalagens.</p>
-          <button class="btn-lev"><a href="produtos.html">Ver produtos</a></button>
-        </div>
-        <div class="col-md-8 col-sm-12">
-          <img src="img/familia-lev2.png" alt='foto da família de produtos LEV' class="img-fluid">
-        </div>
-      </div>
-    </div>
-  </section>
+
 
   <footer class="footer-lev" id="footer-lev">
     <div class="container">

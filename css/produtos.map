@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "produtos.css",
+	"sources": [
+		"../scss/produtos.scss"
+	],
+	"sourcesContent": [
+		".card-produtos {\r\n  height: 100%;\r\n  background: white;\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  border-radius: 5px;\r\n  box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.2);\r\n  margin: 15px 0;\r\n}\r\n\r\n.card-produtos img {\r\n  max-height: 300px;\r\n  padding: 15px;\r\n}\r\n\r\n.card-produtos h3 {\r\n  background: #166f91;\r\n  font-size: 1rem;\r\n  color: white;\r\n  text-align: center;\r\n  padding: 10px 15px;\r\n  border-bottom-left-radius: 5px;\r\n  border-bottom-right-radius: 5px;\r\n  margin: 0;\r\n  width: 100%;\r\n}\r\n\r\n.card-produtos h3 span {\r\n  font-size: 0.8rem;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,cAAc,CAAC;EACb,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,KAAK;EACjB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;EACnB,aAAa,EAAE,GAAG;EAClB,UAAU,EAAE,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,GAAG,CAAC,kBAAkB;EAC/C,MAAM,EAAE,MAAM;CACf;;;AAED,AAAA,cAAc,CAAC,GAAG,CAAC;EACjB,UAAU,EAAE,KAAK;EACjB,OAAO,EAAE,IAAI;CACd;;;AAED,AAAA,cAAc,CAAC,EAAE,CAAC;EAChB,UAAU,EAAE,OAAO;EACnB,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,KAAK;EACZ,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,SAAS;EAClB,yBAAyB,EAAE,GAAG;EAC9B,0BAA0B,EAAE,GAAG;EAC/B,MAAM,EAAE,CAAC;EACT,KAAK,EAAE,IAAI;CACZ;;;AAED,AAAA,cAAc,CAAC,EAAE,CAAC,IAAI,CAAC;EACrB,SAAS,EAAE,MAAM;CAClB"
+}

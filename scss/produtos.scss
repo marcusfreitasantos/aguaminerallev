@@ -1,0 +1,32 @@
+.card-produtos {
+  height: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.2);
+  margin: 15px 0;
+}
+
+.card-produtos img {
+  max-height: 300px;
+  padding: 15px;
+}
+
+.card-produtos h3 {
+  background: #166f91;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  padding: 10px 15px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin: 0;
+  width: 100%;
+}
+
+.card-produtos h3 span {
+  font-size: 0.8rem;
+}

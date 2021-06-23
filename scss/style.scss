@@ -1,4 +1,7 @@
 @import 'quem-somos.scss';
+@import 'produtos.scss';
+@import 'dicas.scss';
+
 $darkerBlueLev: #0c3b4d;
 $darkBlueLev: #166f91;
 $lightBlueLev: #15afc2;
@@ -9,6 +12,9 @@ $levFooterTitle: 1.5rem;
 $levParagraph: 1rem;
 $sectionPadding: 60px 0;
 
+p {
+  color: $grayLev;
+}
 ul {
   padding: 0;
 }
@@ -68,15 +74,11 @@ body {
   padding: 60px 0;
 }
 
-.hero-banner-home {
-  background: url(../img/hero-banner-home.jpg);
-  @include banner-img;
-}
-
-.hero-banner-quem-somos {
-  background: url(../img/quem-somos-img.jpg);
-  @include banner-img;
-  padding: 10px 0;
+.hero-banner-home,
+.hero-banner-produtos,
+.hero-banner-quem-somos,
+.hero-banner-dicas {
+  padding: 0;
 }
 
 .banner-img {
@@ -124,6 +126,7 @@ footer {
 .lev-contato p {
   margin: 0 !important;
   font-size: 0.9rem !important;
+  color: white;
 }
 
 .bottom-bar {
@@ -180,7 +183,20 @@ footer {
   color: white;
 }
 
-@media (max-width: 360px) {
+.banner-mobile {
+  display: none;
+}
+
+@media (max-width: 40rem) {
+  .col {
+    flex: none;
+  }
+  .banner-desktop {
+    display: none;
+  }
+  .banner-mobile {
+    display: block;
+  }
   .footer-content .col-sm-12:nth-child(2n) {
     margin: 30px 0;
   }
