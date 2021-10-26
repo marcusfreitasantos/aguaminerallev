@@ -1,2 +1,2 @@
 # aguaminerallev
-Website da empresa Água Mineral LEV utilizando SASS e BootStrap.
+Website for a water company called LEV. I made this using SASS e BootStrap.
